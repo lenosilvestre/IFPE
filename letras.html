@@ -198,7 +198,6 @@
             });
 
             // Atualizar a barra de progresso inicialmente
-            getCheckboxState();
             updateProgressBar();
         });
 
@@ -211,55 +210,11 @@
 
 
             // Armazenar o estado marcado no localStorage
-            // if (checkboxId) {
-            //     var checkbox = document.getElementById(checkboxId);
-            //     localStorage.setItem(checkboxId, checkbox.checked);
-            // }
-            updateCheckboxState(checkboxId, checkbox.checked);
+            if (checkboxId) {
+                var checkbox = document.getElementById(checkboxId);
+                localStorage.setItem(checkboxId, checkbox.checked);
+            }
         }
-
-        // Função para atualizar o estado de uma checkbox API
-        function updateCheckboxState(checkboxId, state) {
-            const url = 'https://script.google.com/macros/s/AKfycbwYHfpWsrmzAnILfWZ5aV6vr9t9DRmIxr77SW_Swb8HhxSPM1uzHJqBON8rTbVoJjQ1ZA/exec'; // Substitua com a URL da implantação
-            const payload = {
-                method: 'POST',
-                contentType: 'application/json',
-                payload: JSON.stringify({
-                    checkboxId: checkboxId,
-                    state: state
-                })
-            };
-
-            fetch(url, payload)
-                .then(response => response.json())
-                .then(data => {
-                    console.log('Estado da checkbox atualizado com sucesso:', data);
-                })
-                .catch(error => {
-                    console.error('Erro ao atualizar o estado:', error);
-                });
-        }
-
-        // Função para obter o estado de uma checkbox
-        function getCheckboxState(checkboxId) {
-            const url = 'https://script.google.com/macros/s/AKfycbwYHfpWsrmzAnILfWZ5aV6vr9t9DRmIxr77SW_Swb8HhxSPM1uzHJqBON8rTbVoJjQ1ZA/exec'; // Substitua com a URL da implantação
-            const payload = {
-                method: 'GET',
-                contentType: 'application/json',
-                payload: JSON.stringify({ checkboxId: checkboxId }), 
-mode: 'no-cors'
-            };
-
-            fetch(url, payload)
-                .then(response => response.json())
-                .then(data => {
-                    console.log('Estado da checkbox:', data);
-                })
-                .catch(error => {
-                    console.error('Erro ao obter o estado:', error);
-                });
-        }
-
     </script>
 </body>
 
