@@ -246,7 +246,8 @@
             const payload = {
                 method: 'GET',
                 contentType: 'application/json',
-                payload: JSON.stringify({ checkboxId: checkboxId })
+                payload: JSON.stringify({ checkboxId: checkboxId }), 
+mode: 'no-cors'
             };
 
             fetch(url, payload)
