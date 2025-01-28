@@ -12,7 +12,7 @@ Esta página foi criada para fornecer recursos de estudo para o Concurso Públic
 
 1. **Edital Oficial e Anexos:**
    - Acesse o edital oficial e seus anexos para obter informações detalhadas sobre o concurso.
-   - [Clique aqui para acessar o edital](https://www.ifes.edu.br/processosseletivos/servidores/item/3127-concurso-publico-01-2025-docentes)
+   - [Clique aqui para acessar o edital](https://cvest.ifpe.edu.br/concurso2016_doc/arquivos/08.%20Edital-125-2016-GR%20-%20Retificado%20em%2018.01.2017%20no%20DOU.pdf)
 
 2. **Legislação:**
    - Encontre informações sobre legislação pertinente ao concurso.
