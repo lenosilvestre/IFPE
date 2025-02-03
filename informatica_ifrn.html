@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legislação e Educação</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+</head>
+
+<body>
+  <div id="progressbar">
+    <div id="progress">
+      <div id="progress-text">0%</div>
+    </div>
+  </div>
+
+  <div id="container">
+
+
+    <ul>
+
+      <li class="btinicio">
+        <img src="img/casa.png" alt="início" width="30" height="30">
+        <h3><a href="index.html"> Início </a></h3>
+
+      </li>
+    </ul>
+    <div id="legislacao">
+      <h1>Conteúdo Programático</h1>
+      <form>
+        <ul>
+          <!-- Engenharia de Requisitos -->
+          <h2>1. Engenharia de Requisitos</h2>
+
+          <li>
+            <label><input type="checkbox" id="1_1" onclick="updateProgressBar(this.id)"> 1.1 Requisitos funcionais e não
+              funcionais</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="1_2" onclick="updateProgressBar(this.id)"> 1.2 Atividades de elicitação,
+              análise e validação de requisitos</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="1_3" onclick="updateProgressBar(this.id)"> 1.3 Documentação de
+              requisitos</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="1_4" onclick="updateProgressBar(this.id)"> 1.4 Modelagem usando
+              UML</label>
+          </li>
+
+
+          <!-- Processo de Software -->
+          <h2>2. Processo de Software</h2>
+
+          <li>
+            <label><input type="checkbox" id="2_1" onclick="updateProgressBar(this.id)"> 2.1 Modelos de processo de
+              software</label>
+
+          <li>
+            <label><input type="checkbox" id="2_1_1" onclick="updateProgressBar(this.id)"> 2.1.1 Cascata</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="2_1_2" onclick="updateProgressBar(this.id)"> 2.1.2 Incremental</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="2_1_3" onclick="updateProgressBar(this.id)"> 2.1.3 Orientado a
+              reuso</label>
+          </li>
+
+          </li>
+          <li>
+            <label><input type="checkbox" id="2_2" onclick="updateProgressBar(this.id)"> 2.2 Atividades
+              fundamentais</label>
+
+          <li>
+            <label><input type="checkbox" id="2_2_1" onclick="updateProgressBar(this.id)"> 2.2.1
+              Especificação</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="2_2_2" onclick="updateProgressBar(this.id)"> 2.2.2 Projeto</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="2_2_3" onclick="updateProgressBar(this.id)"> 2.2.3
+              Implementação</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="2_2_4" onclick="updateProgressBar(this.id)"> 2.2.4 Validação</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="2_2_5" onclick="updateProgressBar(this.id)"> 2.2.5 Evolução</label>
+          </li>
+
+          </li>
+          <li>
+            <label><input type="checkbox" id="2_3" onclick="updateProgressBar(this.id)"> 2.3 Processo Unificado
+              (Rational Unified Process)</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="2_4" onclick="updateProgressBar(this.id)"> 2.4 Princípios de métodos
+              ágeis</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="2_5" onclick="updateProgressBar(this.id)"> 2.5 Extreme Programming
+              (XP)</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="2_6" onclick="updateProgressBar(this.id)"> 2.6 Scrum</label>
+          </li>
+
+
+          <!-- Programação Orientada a Objeto (POO) -->
+          <h2>3. Programação Orientada a Objeto (POO)</h2>
+
+          <li>
+            <label><input type="checkbox" id="3_1" onclick="updateProgressBar(this.id)"> 3.1 Abstração</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="3_2" onclick="updateProgressBar(this.id)"> 3.2 Encapsulamento</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="3_3" onclick="updateProgressBar(this.id)"> 3.3 Polimorfismo</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="3_4" onclick="updateProgressBar(this.id)"> 3.4 Herança</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="3_5" onclick="updateProgressBar(this.id)"> 3.5 Classes concretas e
+              abstratas</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="3_6" onclick="updateProgressBar(this.id)"> 3.6 Métodos</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="3_7" onclick="updateProgressBar(this.id)"> 3.7 Interfaces</label>
+          </li>
+
+
+          <!-- Persistência de Dados -->
+          <h2>4. Persistência de Dados</h2>
+
+          <li>
+            <label><input type="checkbox" id="4_1" onclick="updateProgressBar(this.id)"> 4.1 Projeto de bancos de
+              dados</label>
+
+          <li>
+            <label><input type="checkbox" id="4_1_1" onclick="updateProgressBar(this.id)"> 4.1.1 Conceitual</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="4_1_2" onclick="updateProgressBar(this.id)"> 4.1.2 Lógico</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="4_1_3" onclick="updateProgressBar(this.id)"> 4.1.3 Físico</label>
+          </li>
+
+          </li>
+          <li>
+            <label><input type="checkbox" id="4_2" onclick="updateProgressBar(this.id)"> 4.2 Modelo
+              Entidade-Relacionamento (MER)</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="4_3" onclick="updateProgressBar(this.id)"> 4.3 Modelo Relacional</label>
+
+          <li>
+            <label><input type="checkbox" id="4_3_1" onclick="updateProgressBar(this.id)"> 4.3.1 Conceitos</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="4_3_2" onclick="updateProgressBar(this.id)"> 4.3.2 Álgebra
+              relacional</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="4_3_3" onclick="updateProgressBar(this.id)"> 4.3.3
+              Normalização</label>
+          </li>
+
+          </li>
+          <li>
+            <label><input type="checkbox" id="4_4" onclick="updateProgressBar(this.id)"> 4.4 Structured Query Language
+              (SQL)</label>
+
+          <li>
+            <label><input type="checkbox" id="4_4_1" onclick="updateProgressBar(this.id)"> 4.4.1 Comandos de
+              definição de dados</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="4_4_2" onclick="updateProgressBar(this.id)"> 4.4.2 Comandos de
+              manipulação de dados</label>
+          </li>
+
+          </li>
+          <li>
+            <label><input type="checkbox" id="4_5" onclick="updateProgressBar(this.id)"> 4.5 Mapeamento
+              Objeto-Relacional (ORM)</label>
+          </li>
+
+
+          <!-- Arquitetura de Software -->
+          <h2>5. Arquitetura de Software</h2>
+
+          <li>
+            <label><input type="checkbox" id="5_1" onclick="updateProgressBar(this.id)"> 5.1 Padrões
+              arquiteturais</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="5_2" onclick="updateProgressBar(this.id)"> 5.2 Visões
+              arquiteturais</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="5_3" onclick="updateProgressBar(this.id)"> 5.3 Integração de aplicações
+              usando API REST</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="5_4" onclick="updateProgressBar(this.id)"> 5.4 Arquitetura de
+              micro-serviços</label>
+
+          <li>
+            <label><input type="checkbox" id="5_4_1" onclick="updateProgressBar(this.id)"> 5.4.1 Conceito</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="5_4_2" onclick="updateProgressBar(this.id)"> 5.4.2 Tecnologias</label>
+          </li>
+
+          </li>
+          <li>
+            <label><input type="checkbox" id="5_5" onclick="updateProgressBar(this.id)"> 5.5 Padrões de projeto
+              orientado a objeto</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="5_6" onclick="updateProgressBar(this.id)"> 5.6 Stakeholders</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="5_7" onclick="updateProgressBar(this.id)"> 5.7 Modelagem estrutural e
+              comportamental com UML</label>
+          </li>
+
+          <!-- Desenvolvimento Front-end -->
+          <h2>6. Desenvolvimento Front-end</h2>
+
+          <li>
+            <label><input type="checkbox" id="6_1" onclick="updateProgressBar(this.id)"> 6.1 Usabilidade</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="6_2" onclick="updateProgressBar(this.id)"> 6.2 Acessibilidade</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="6_3" onclick="updateProgressBar(this.id)"> 6.3 Arquitetura da
+              informação</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="6_4" onclick="updateProgressBar(this.id)"> 6.4 Requisições
+              cliente-servidor com HTTP</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="6_5" onclick="updateProgressBar(this.id)"> 6.5 HTML</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="6_6" onclick="updateProgressBar(this.id)"> 6.6 CSS</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="6_7" onclick="updateProgressBar(this.id)"> 6.7 JavaScript</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="6_8" onclick="updateProgressBar(this.id)"> 6.8 React JS</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="6_9" onclick="updateProgressBar(this.id)"> 6.9 Angular</label>
+          </li>
+
+
+          <!-- Desenvolvimento Back-end -->
+          <h2>7. Desenvolvimento Back-end</h2>
+
+          <li>
+            <label><input type="checkbox" id="7_1" onclick="updateProgressBar(this.id)"> 7.1 C++</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="7_2" onclick="updateProgressBar(this.id)"> 7.2 Java</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="7_3" onclick="updateProgressBar(this.id)"> 7.3 Python</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="7_4" onclick="updateProgressBar(this.id)"> 7.4 Framework Django 4</label>
+          </li>
+
+
+          <!-- Desenvolvimento Mobile -->
+          <h2>8. Desenvolvimento Mobile</h2>
+
+          <li>
+            <label><input type="checkbox" id="8_1" onclick="updateProgressBar(this.id)"> 8.1 React Native</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="8_2" onclick="updateProgressBar(this.id)"> 8.2 Ionic</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="8_3" onclick="updateProgressBar(this.id)"> 8.3 Swift</label>
+          </li>
+
+
+          <!-- Teste de Software -->
+          <h2>9. Teste de Software</h2>
+
+          <li>
+            <label><input type="checkbox" id="9_1" onclick="updateProgressBar(this.id)"> 9.1 Casos de testes</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="9_2" onclick="updateProgressBar(this.id)"> 9.2 Teste unitário</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="9_3" onclick="updateProgressBar(this.id)"> 9.3 Teste de integração</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="9_4" onclick="updateProgressBar(this.id)"> 9.4 Teste de sistemas</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="9_5" onclick="updateProgressBar(this.id)"> 9.5 Teste de release</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="9_6" onclick="updateProgressBar(this.id)"> 9.6 Teste de desempenho</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="9_7" onclick="updateProgressBar(this.id)"> 9.7 Test-Driven Development
+              (TDD)</label>
+          </li>
+
+
+          <!-- Evolução de Software -->
+          <h2>10. Evolução de Software</h2>
+
+          <li>
+            <label><input type="checkbox" id="10_1" onclick="updateProgressBar(this.id)"> 10.1 Processo de
+              evolução</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="10_2" onclick="updateProgressBar(this.id)"> 10.2 Manutenção corretiva,
+              adaptativa e incremental</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="10_3" onclick="updateProgressBar(this.id)"> 10.3 Refatoração</label>
+          </li>
+
+
+          <!-- Sistemas Operacionais -->
+          <h2>11. Sistemas Operacionais</h2>
+
+          <li>
+            <label><input type="checkbox" id="11_1" onclick="updateProgressBar(this.id)"> 11.1 Sistema de
+              arquivos</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="11_2" onclick="updateProgressBar(this.id)"> 11.2 Administração de
+              usuários</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="11_3" onclick="updateProgressBar(this.id)"> 11.3 Backup</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="11_4" onclick="updateProgressBar(this.id)"> 11.4 Gerenciamento de
+              processos</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="11_5" onclick="updateProgressBar(this.id)"> 11.5 Gerenciamento de
+              memória</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="11_6" onclick="updateProgressBar(this.id)"> 11.6 Sistemas operacionais
+              Windows e Linux</label>
+          </li>
+
+
+          <!-- Tecnologias para Interoperabilidade de Sistemas -->
+          <h2>12. Tecnologias para Interoperabilidade de Sistemas</h2>
+
+          <li>
+            <label><input type="checkbox" id="12_1" onclick="updateProgressBar(this.id)"> 12.1 OAuth 2</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="12_2" onclick="updateProgressBar(this.id)"> 12.2 SOAP</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="12_3" onclick="updateProgressBar(this.id)"> 12.3 Webservice</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="12_4" onclick="updateProgressBar(this.id)"> 12.4 RESTFull</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="12_5" onclick="updateProgressBar(this.id)"> 12.5 JSON</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="12_6" onclick="updateProgressBar(this.id)"> 12.6 XML</label>
+          </li>
+
+
+          <!-- DEVOPS -->
+          <h2>13. DEVOPS</h2>
+
+          <li>
+            <label><input type="checkbox" id="13_1" onclick="updateProgressBar(this.id)"> 13.1 Integração
+              contínua</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="13_2" onclick="updateProgressBar(this.id)"> 13.2 Pipelines</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="13_3" onclick="updateProgressBar(this.id)"> 13.3 CI/CD</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="13_4" onclick="updateProgressBar(this.id)"> 13.4 Testes
+              automatizados</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="13_5" onclick="updateProgressBar(this.id)"> 13.5 Comandos GIT</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="13_6" onclick="updateProgressBar(this.id)"> 13.6 Conceitos de
+              Docker</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="13_7" onclick="updateProgressBar(this.id)"> 13.7 Criação e gerenciamento
+              de containers</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="13_8" onclick="updateProgressBar(this.id)"> 13.8 Criação e gerenciamento
+              de imagens</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="13_9" onclick="updateProgressBar(this.id)"> 13.9 Armazenamento de imagens
+              no Docker Hub</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="13_10" onclick="updateProgressBar(this.id)"> 13.10 Persistência de dados
+              em volumes</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="13_11" onclick="updateProgressBar(this.id)"> 13.11 Criação de rede
+              bridge</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="13_12" onclick="updateProgressBar(this.id)"> 13.12 Coordenação de
+              containers com Docker Compose</label>
+          </li>
+
+
+          <!-- Segurança da Informação -->
+          <h2>14. Segurança da Informação</h2>
+
+          <li>
+            <label><input type="checkbox" id="14_1" onclick="updateProgressBar(this.id)"> 14.1 Conceitos de
+              autenticação</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="14_2" onclick="updateProgressBar(this.id)"> 14.2 Criptografia</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="14_3" onclick="updateProgressBar(this.id)"> 14.3 Certificação
+              digital</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="14_4" onclick="updateProgressBar(this.id)"> 14.4 Chaves pública e
+              privada</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="14_5" onclick="updateProgressBar(this.id)"> 14.5 Protocolo HTTPS</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="14_6" onclick="updateProgressBar(this.id)"> 14.6 Análise de
+              vulnerabilidade</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="14_7" onclick="updateProgressBar(this.id)"> 14.7 Tipos de ataques</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="14_8" onclick="updateProgressBar(this.id)"> 14.8 Vírus</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="14_9" onclick="updateProgressBar(this.id)"> 14.9 Auditoria e
+              conformidade</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="14_10" onclick="updateProgressBar(this.id)"> 14.10 Lei Geral de Proteção
+              de Dados Pessoais (LGPD) - Lei n° 13.709/2018</label>
+          </li>
+
+
+          <!-- Gestão e Governança de TI -->
+          <h2>15. Gestão e Governança de TI</h2>
+
+          <li>
+            <label><input type="checkbox" id="15_1" onclick="updateProgressBar(this.id)"> 15.1 Guia do PMBOK</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="15_2" onclick="updateProgressBar(this.id)"> 15.2 Modelagem de processos
+              com BPMN</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="15_3" onclick="updateProgressBar(this.id)"> 15.3 Fundamentos, dimensões e
+              componentes da biblioteca ITIL4 (Technology Infrastructure Library)</label>
+          </li>
+
+
+        </ul>
+      </form>
+    </div>
+
+
+
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Recuperar os estados marcados dos checkboxes armazenados no localStorage
+      var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+      checkboxes.forEach(function (checkbox) {
+        var checkboxId = checkbox.id;
+        var isChecked = localStorage.getItem(checkboxId) === "true";
+        checkbox.checked = isChecked;
+      });
+
+      // Atualizar a barra de progresso inicialmente
+      updateProgressBar();
+    });
+
+    function updateProgressBar(checkboxId) {
+      var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+      var checkedCheckboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+      var progress = (checkedCheckboxes.length / checkboxes.length) * 100;
+      document.getElementById('progress').style.width = progress + '%';
+      document.getElementById('progress-text').textContent = progress.toFixed(2) + '%';
+
+      // Armazenar o estado marcado no localStorage
+      if (checkboxId) {
+        var checkbox = document.getElementById(checkboxId);
+        localStorage.setItem(checkboxId, checkbox.checked);
+      }
+    }
+  </script>
+</body>
+
+</html>
