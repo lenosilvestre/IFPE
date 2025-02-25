@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo IFS 2024</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+</head>
+
+<body>
+    <div id="bufsbprogressbar">
+        <div id="bprogress">
+            <div id="bprogress-text">0%</div>
+        </div>
+    </div>
+
+    <ul>
+        <li class="btinicio">
+            <img src="img/casa.png" alt="início" width="30" height="30">
+            <h3><a href="index.html"> Início </a></h3>
+        </li>
+    </ul>
+
+
+    <h1>Conteúdos gerais Analista de TI UFSB</h1>
+    <form>
+        <h2>1. Língua Portuguesa</h2>
+        <ul>
+            <li><label><input type="checkbox" id="ufsb1_1" onclick="updateProgressBar(this.id)"> 1.1 Leitura, compreensão e interpretação de textos</label></li>
+            <li><label><input type="checkbox" id="ufsb1_2" onclick="updateProgressBar(this.id)"> 1.2 Estruturação do texto e dos parágrafos</label></li>
+            <li><label><input type="checkbox" id="ufsb1_3" onclick="updateProgressBar(this.id)"> 1.3 Articulação do texto: pronomes e expressões referenciais, nexos, operadores sequenciais</label></li>
+            <li><label><input type="checkbox" id="ufsb1_4" onclick="updateProgressBar(this.id)"> 1.4 Significação contextual de palavras e expressões</label></li>
+            <li><label><input type="checkbox" id="ufsb1_5" onclick="updateProgressBar(this.id)"> 1.5 Equivalência e transformação de estruturas</label></li>
+            <li><label><input type="checkbox" id="ufsb1_6" onclick="updateProgressBar(this.id)"> 1.6 Sintaxe: processos de coordenação e subordinação</label></li>
+            <li><label><input type="checkbox" id="ufsb1_7" onclick="updateProgressBar(this.id)"> 1.7 Emprego de tempos e modos verbais</label></li>
+            <li><label><input type="checkbox" id="ufsb1_8" onclick="updateProgressBar(this.id)"> 1.8 Pontuação</label></li>
+            <li><label><input type="checkbox" id="ufsb1_9" onclick="updateProgressBar(this.id)"> 1.9 Estrutura e formação de palavras</label></li>
+            <li><label><input type="checkbox" id="ufsb1_10" onclick="updateProgressBar(this.id)"> 1.10 Funções das classes de palavras</label></li>
+            <li><label><input type="checkbox" id="ufsb1_11" onclick="updateProgressBar(this.id)"> 1.11 Flexão nominal e verbal</label></li>
+            <li><label><input type="checkbox" id="ufsb1_12" onclick="updateProgressBar(this.id)"> 1.12 Pronomes: emprego, formas de tratamento e colocação</label></li>
+            <li><label><input type="checkbox" id="ufsb1_13" onclick="updateProgressBar(this.id)"> 1.13 Concordância nominal e verbal</label></li>
+            <li><label><input type="checkbox" id="ufsb1_14" onclick="updateProgressBar(this.id)"> 1.14 Regência nominal e verbal</label></li>
+            <li><label><input type="checkbox" id="ufsb1_15" onclick="updateProgressBar(this.id)"> 1.15 Ortografia oficial</label></li>
+            <li><label><input type="checkbox" id="ufsb1_16" onclick="updateProgressBar(this.id)"> 1.16 Acentuação gráfica</label></li>
+        </ul>
+        
+        <h2>2. Raciocínio Lógico Matemático</h2>
+        <ul>
+            <li><label><input type="checkbox" id="ufsb2_1" onclick="updateProgressBar(this.id)"> 2.1 Princípio da Regressão ou Reversão</label></li>
+            <li><label><input type="checkbox" id="ufsb2_2" onclick="updateProgressBar(this.id)"> 2.2 Lógica dedutiva, argumentativa e quantitativa</label></li>
+            <li><label><input type="checkbox" id="ufsb2_3" onclick="updateProgressBar(this.id)"> 2.3 Lógica matemática qualitativa, sequências lógicas envolvendo números, letras e figuras</label></li>
+            <li><label><input type="checkbox" id="ufsb2_4" onclick="updateProgressBar(this.id)"> 2.4 Geometria básica</label></li>
+            <li><label><input type="checkbox" id="ufsb2_5" onclick="updateProgressBar(this.id)"> 2.5 Álgebra básica e sistemas lineares</label></li>
+            <li><label><input type="checkbox" id="ufsb2_6" onclick="updateProgressBar(this.id)"> 2.6 Calendários</label></li>
+            <li><label><input type="checkbox" id="ufsb2_7" onclick="updateProgressBar(this.id)"> 2.7 Numeração</label></li>
+            <li><label><input type="checkbox" id="ufsb2_8" onclick="updateProgressBar(this.id)"> 2.8 Razões especiais</label></li>
+            <li><label><input type="checkbox" id="ufsb2_9" onclick="updateProgressBar(this.id)"> 2.9 Análise combinatória e probabilidade</label></li>
+            <li><label><input type="checkbox" id="ufsb2_10" onclick="updateProgressBar(this.id)"> 2.10 Progressões Aritmética e Geométrica</label></li>
+            <li><label><input type="checkbox" id="ufsb2_11" onclick="updateProgressBar(this.id)"> 2.11 Conjuntos e operações entre conjuntos</label></li>
+        </ul>
+        
+        <h2>3. Informática</h2>
+        <ul>
+            <li><label><input type="checkbox" id="ufsb3_1" onclick="updateProgressBar(this.id)"> 3.1 Princípios básicos de Informática</label></li>
+            <li><label><input type="checkbox" id="ufsb3_2" onclick="updateProgressBar(this.id)"> 3.2 Dispositivos de armazenamento e periféricos</label></li>
+            <li><label><input type="checkbox" id="ufsb3_3" onclick="updateProgressBar(this.id)"> 3.3 MS-Windows 11 e Pacote Office 2021</label></li>
+            <li><label><input type="checkbox" id="ufsb3_4" onclick="updateProgressBar(this.id)"> 3.4 Configuração de impressoras</label></li>
+            <li><label><input type="checkbox" id="ufsb3_5" onclick="updateProgressBar(this.id)"> 3.5 Correio eletrônico e navegação na internet</label></li>
+            <li><label><input type="checkbox" id="ufsb3_6" onclick="updateProgressBar(this.id)"> 3.6 Aplicativos para segurança e armazenamento na nuvem</label></li>
+        </ul>
+        
+        <h2>4. Legislação</h2>
+        <ul>
+            <li><label><input type="checkbox" id="ufsb4_1" onclick="updateProgressBar(this.id)"> 4.1 Constituição Federal de 1988 e principais leis</label></li>
+            <li><label><input type="checkbox" id="ufsb4_2" onclick="updateProgressBar(this.id)"> 4.2 Decreto 1.171/1994 e suas atualizações</label></li>
+            <li><label><input type="checkbox" id="ufsb4_3" onclick="updateProgressBar(this.id)"> 4.3 Lei 8.112/1990 e suas alterações</label></li>
+            <li><label><input type="checkbox" id="ufsb4_4" onclick="updateProgressBar(this.id)"> 4.4 Lei 9.784/1999 e outras legislações relevantes</label></li>
+        </ul>
+        
+
+    </form>
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Recuperar os estados marcados dos checkboxes armazenados no localStorage
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(function (checkbox) {
+                var checkboxId = checkbox.id;
+                var isChecked = localStorage.getItem(checkboxId) === "true";
+                checkbox.checked = isChecked;
+            });
+
+            // Atualizar a barra de progresso inicialmente
+            updateProgressBar();
+        });
+
+        function updateProgressBar(checkboxId) {
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            var checkedCheckboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+            var progress = (checkedCheckboxes.length / checkboxes.length) * 100;
+            document.getElementById('progress').style.width = progress + '%';
+            document.getElementById('progress-text').textContent = progress.toFixed(2) + '%';
+
+
+            // Armazenar o estado marcado no localStorage
+            if (checkboxId) {
+                var checkbox = document.getElementById(checkboxId);
+                localStorage.setItem(checkboxId, checkbox.checked);
+            }
+        }
+    </script>
+</body>
+
+</html>
