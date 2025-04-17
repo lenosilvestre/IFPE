@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo IFS 2024</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+</head>
+
+<body>
+    <div id="progressbar">
+        <div id="progress">
+            <div id="progress-text">0%</div>
+        </div>
+    </div>
+
+    <ul>
+        <li class="btinicio">
+            <img src="img/casa.png" alt="início" width="30" height="30">
+            <h3><a href="index.html"> Início </a></h3>
+        </li>
+    </ul>
+
+   <form>
+        <h2>BIOLOGIA</h2>
+        <ul>
+            <li>
+                <label><input type="checkbox" id="bio_1_1" onclick="updateProgressBar(this.id)"> 1. Biologia celular e molecular</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_1_2" onclick="updateProgressBar(this.id)"> 1.1. Origem e evolução das células</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_1_3" onclick="updateProgressBar(this.id)"> 1.2. Bioquímica celular (carboidratos, lipídeos, proteínas e ácidos nucleicos)</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_1_4" onclick="updateProgressBar(this.id)"> 1.3. Envoltórios celulares: estruturas e funções</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_1_5" onclick="updateProgressBar(this.id)"> 1.4. Organelas citoplasmáticas: estruturas, funções e inter-relações</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_1_6" onclick="updateProgressBar(this.id)"> 1.5. Citoesqueleto: estrutura, organização e funções</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_1_7" onclick="updateProgressBar(this.id)"> 1.6. Núcleo celular: características gerais, componentes e funções</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_1_8" onclick="updateProgressBar(this.id)"> 1.7. Metabolismo celular: quimiossíntese, respiração celular, fermentação e fotossíntese</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_1_9" onclick="updateProgressBar(this.id)"> 1.8. Ciclo celular: interfase, mitose e meiose</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_2_1" onclick="updateProgressBar(this.id)"> 2. Biologia Humana</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_2_2" onclick="updateProgressBar(this.id)"> 2.1. Embriologia: controle de natalidade e métodos contraceptivos, doenças sexualmente transmissíveis, gametogênese e fecundação, desenvolvimento embrionário (segmentação, gastrulação, neurulação, organogênese e anexos embrionários)</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_2_3" onclick="updateProgressBar(this.id)"> 2.2. Histologia animal: epiteliais, musculares, nervoso e conjuntivo (propriamente dito, reticular, adiposo e ósseo)</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_2_4" onclick="updateProgressBar(this.id)"> 2.3. Fisiologia dos sistemas humano: sistema imune, endócrino, cardiovascular, excretor, nervoso, digestório</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_3_1" onclick="updateProgressBar(this.id)"> 3. Genética</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_3_2" onclick="updateProgressBar(this.id)"> 3.1. Expressão genética: transcrição e tradução em procariotos e eucariotos</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_3_3" onclick="updateProgressBar(this.id)"> 3.2. Conceitos fundamentais: genes, genótipo, fenótipo, leis de Mendel e hibridismo</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_3_4" onclick="updateProgressBar(this.id)"> 3.3. Estudo de heredogramas e probabilidades</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_3_5" onclick="updateProgressBar(this.id)"> 3.4. Heranças genéticas monogênicas e poligênicas</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_3_6" onclick="updateProgressBar(this.id)"> 3.5. Estudo dos grupos sanguíneos na espécie humana</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_3_7" onclick="updateProgressBar(this.id)"> 3.6. Determinação do sexo e influência na herança</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_3_8" onclick="updateProgressBar(this.id)"> 3.7. Ligação gênica e mapeamento cromossômico</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_3_9" onclick="updateProgressBar(this.id)"> 3.8. Biotecnologia: conceitos, técnicas e aplicações</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_4_1" onclick="updateProgressBar(this.id)"> 4. Seres vivos</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_4_2" onclick="updateProgressBar(this.id)"> 4.1. Sistemática, taxonomia e análise de cladogramas</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_4_3" onclick="updateProgressBar(this.id)"> 4.2. Vírus, príons e doenças relacionadas</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_4_4" onclick="updateProgressBar(this.id)"> 4.3. Reino monera: características gerais e doenças relacionadas</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_4_5" onclick="updateProgressBar(this.id)"> 4.4. Reino protoctista: características gerais e doenças relacionadas</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_4_6" onclick="updateProgressBar(this.id)"> 4.5. Reino fungi: características gerais e doenças relacionadas</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_4_7" onclick="updateProgressBar(this.id)"> 4.6. Reino vegetal: características morfofisiológicas das briófitas, pteridófitas, gimnospermas e angiospermas</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_4_8" onclick="updateProgressBar(this.id)"> 4.7. Reino animal: características morfofisiológicas dos invertebrados e vertebrados, e doenças relacionadas</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_5_1" onclick="updateProgressBar(this.id)"> 5. Evolução biológica</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_5_2" onclick="updateProgressBar(this.id)"> 5.1. Teorias evolutivas e origem da vida</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_5_3" onclick="updateProgressBar(this.id)"> 5.2. Evidências da evolução: homologia, analogia, órgãos vestigiais, semelhanças embrionárias, fósseis e filogenia molecular</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_5_4" onclick="updateProgressBar(this.id)"> 5.3. Fatores evolutivos: migração, mutação, seleção natural, recombinação gênica e deriva gênica</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_5_5" onclick="updateProgressBar(this.id)"> 5.4. Genética de populações</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_5_6" onclick="updateProgressBar(this.id)"> 5.5. Especiação e adaptação</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_6_1" onclick="updateProgressBar(this.id)"> 6. Ecologia</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_6_2" onclick="updateProgressBar(this.id)"> 6.1. Ecologia de ecossistemas: ciclagem da matéria e fluxo de energia</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_6_3" onclick="updateProgressBar(this.id)"> 6.2. Ecologia de populações: estrutura e dinâmica</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_6_4" onclick="updateProgressBar(this.id)"> 6.3. Ecologia de comunidades: estrutura, dinâmica e interações entre populações</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_6_5" onclick="updateProgressBar(this.id)"> 6.4. Domínios morfoclimáticos, biomas e ecossistemas aquáticos no Brasil</label>
+            </li>
+            <li>
+                <label><input type="checkbox" id="bio_6_6" onclick="updateProgressBar(this.id)"> 6.5. Poluição ambiental e interferência humana em ecossistemas naturais</label>
+            </li>
+        </ul>
+    </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Recuperar os estados marcados dos checkboxes armazenados no localStorage
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(function (checkbox) {
+                var checkboxId = checkbox.id;
+                var isChecked = localStorage.getItem(checkboxId) === "true";
+                checkbox.checked = isChecked;
+            });
+
+            // Atualizar a barra de progresso inicialmente
+            updateProgressBar();
+        });
+
+        function updateProgressBar(checkboxId) {
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            var checkedCheckboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+            var progress = (checkedCheckboxes.length / checkboxes.length) * 100;
+            document.getElementById('progress').style.width = progress + '%';
+            document.getElementById('progress-text').textContent = progress.toFixed(2) + '%';
+
+
+            // Armazenar o estado marcado no localStorage
+            if (checkboxId) {
+                var checkbox = document.getElementById(checkboxId);
+                localStorage.setItem(checkboxId, checkbox.checked);
+            }
+        }
+    </script>
+</body>
+
+</html>
