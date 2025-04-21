@@ -1,10 +1,10 @@
-**Página de Estudos para o Concurso Público IFPE 2025**
+**Página de Estudos para o Concurso Público IFRN 2025**
 
 ---
 
-**Conteúdo IFPE 2025**
+**Conteúdo IFRN 2025**
 
-Esta página foi criada para fornecer recursos de estudo para o Concurso Público para Professor de Ensino Básico, Técnico e Tecnológico do IFPE 2025. Aqui você encontrará materiais relevantes para se preparar adequadamente para o processo seletivo.
+Esta página foi criada para fornecer recursos de estudo para o Concurso Público para Professor de Ensino Básico, Técnico e Tecnológico do IFRN 2025. Aqui você encontrará materiais relevantes para se preparar adequadamente para o processo seletivo.
 
 ---
 
@@ -40,14 +40,14 @@ Esta página foi criada para fornecer recursos de estudo para o Concurso Públic
 
 **Nota:** Esta página foi desenvolvida como um recurso adicional de estudo e não substitui a leitura atenta do edital oficial do concurso.
 
---- 
+---
 
 **Sobre o Desenvolvedor:**
 
-Este projeto foi desenvolvido por Leno Silvestre como uma iniciativa para auxiliar os candidatos no processo de preparação para o Concurso Público IFPE 2025.
+Este projeto foi desenvolvido por Leno Silvestre como uma iniciativa para auxiliar os candidatos no processo de preparação para o Concurso Público IFRN 2025.
 
 ---
 
 **Aviso Legal:**
 
-Esta página é fornecida apenas como uma ferramenta de estudo e não possui vínculo oficial com o Instituto Federal de Sergipe (IFPE). Os materiais disponíveis aqui são de responsabilidade de seus respectivos autores e foram reunidos com o objetivo de auxiliar os candidatos em sua preparação para o concurso.
+Esta página é fornecida apenas como uma ferramenta de estudo e não possui vínculo oficial com o Instituto Federal do Rio Grande do Norte (IFRN). Os materiais disponíveis aqui são de responsabilidade de seus respectivos autores e foram reunidos com o objetivo de auxiliar os candidatos em sua preparação para o concurso.
